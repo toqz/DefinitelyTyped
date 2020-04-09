@@ -350,6 +350,8 @@ declare namespace mapboxgl {
         rotateTo(bearing: number, options?: mapboxgl.AnimationOptions, eventData?: EventData): this;
 
         resetNorth(options?: mapboxgl.AnimationOptions, eventData?: mapboxgl.EventData): this;
+        
+        resetNorthPitch(options?: mapboxgl.AnimationOptions, eventData?: mapboxgl.EventData): this;
 
         snapToNorth(options?: mapboxgl.AnimationOptions, eventData?: mapboxgl.EventData): this;
 
